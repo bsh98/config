@@ -1,9 +1,11 @@
 execute pathogen#infect()
-syntax on
 filetype plugin indent on
-autocmd vimenter * ++nested colorscheme gruvbox
+syntax on
+"autocmd vimenter * ++nested colorscheme gruvbox
+colorscheme gruvbox
 set background=dark
 set number
+set relativenumber
 set backspace=2
 let g:db_ui_auto_execute_table_helpers = 1
 set clipboard=unnamedplus
